@@ -182,9 +182,8 @@ DesktopMind/
 - `index.html`：Vite 前端入口 HTML
 
 ### 启动脚本
-- `start-desktopmind.bat`：Windows 英文启动入口，推荐保留为主启动脚本
-- `Rust.bat`：Rust 环境辅助安装脚本，偏本地开发辅助，不是应用本体的一部分
-- `启动DesktopMind.bat`（如果保留）：中文别名启动脚本，和英文脚本功能重复，发布到 GitHub 时建议二选一，避免文件名编码带来跨平台压缩包兼容问题
+- `start-desktopmind.bat`：Windows 启动入口
+- `install-rust-dev.bat`：Rust 环境安装脚本
 
 ### 源码目录
 - `src/`：React 前端源码
